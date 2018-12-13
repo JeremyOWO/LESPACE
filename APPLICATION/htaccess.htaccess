@@ -1,0 +1,5 @@
+AuthUserFile /homepages/15/d759943720/htdocs/Appliowo/.htpasswd
+AuthName "Accès protégé"
+AuthType Basic
+Require valid-user
+

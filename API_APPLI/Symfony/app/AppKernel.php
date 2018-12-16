@@ -16,8 +16,8 @@ class AppKernel extends Kernel
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-            // Le générateur a généré la ligne suivante :
             new OC\PlatformBundle\OCPlatformBundle(),
+            // Il faut enregistrer notre nouveau bundle :
             new OC\CoreBundle\OCCoreBundle(),
         );
 
